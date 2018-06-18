@@ -1,0 +1,113 @@
+body{
+	background-image:url("images/court1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bright{
+	display: inline-flex;
+}
+
+
+#bron{
+
+	position: absolute;
+
+}
+.newcontainer{
+	width: 500px;
+	height: 600px;
+	position: relative;
+	border: solid red;
+}
+/***************background players************************/
+.flexcontainer{
+	border: solid red;
+	/*position:relative;	*/
+	width: 2000px;
+	height:800px;
+	
+	/*flex-direction: row;*/
+	justify-content: flex-end;
+	
+}
+
+.players {
+	width: 600px;
+	height:800px;
+	display: inline-flex;
+}
+
+
+
+
+
+#steph{
+	position: absolute;
+	z-index: -1;
+	bottom: 80px;
+	left: 500px;
+}
+.drj {
+	
+	border: solid red;
+	background:url(../images/drj2.png)
+
+	
+}
+
+.larry {
+	
+	background:url(../images/larry2.png);
+	padding: 100px;
+	margin-left: 40px;
+	border: solid red;
+	justify-content: space-between;
+	
+}
+
+
+.court{
+	background-image: url(../images/court1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.front{
+	position:absolute;
+	margin-top: 50px;
+	padding: 500px;
+}
+/**********************shining lights*******************************/
+#shine2 img {
+		transition: all 7s ease-in-out;
+
+}
+		#shine2 img:hover {
+		transform: rotate(360deg);
+}
+
+
+#shine3 img {
+		transition: all 7s ease-in-out;
+
+}
+		#shine3 img:hover {
+		transform: rotate(180deg);
+}
+
+
+#shine img {
+		transition: all 7s ease-in-out;
+
+}
+		#shine img:hover {
+		transform: rotate(180deg);
+}
+
+.shines{
+	margin-bottom: 50px;
+}
+
+
+
+
+
